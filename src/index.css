@@ -1,0 +1,68 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Rajdhani', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+}
+
+.font-chakra {
+  font-family: 'Chakra Petch', sans-serif;
+}
+
+.font-orbitron {
+  font-family: 'Orbitron', monospace;
+}
+
+.font-rajdhani {
+  font-family: 'Rajdhani', sans-serif;
+}
+
+/* Cyber neon glow utilities */
+.text-glow-cyan {
+  text-shadow: 0 0 10px rgba(6, 182, 212, 0.7), 0 0 20px rgba(6, 182, 212, 0.4);
+}
+
+.text-glow-crimson {
+  text-shadow: 0 0 10px rgba(239, 68, 68, 0.7), 0 0 20px rgba(239, 68, 68, 0.4);
+}
+
+.text-glow-gold {
+  text-shadow: 0 0 10px rgba(234, 179, 8, 0.7), 0 0 20px rgba(234, 179, 8, 0.4);
+}
+
+.box-glow-cyan {
+  box-shadow: 0 0 25px -3px rgba(6, 182, 212, 0.45), 0 0 10px -2px rgba(6, 182, 212, 0.3);
+}
+
+.box-glow-crimson {
+  box-shadow: 0 0 25px -3px rgba(239, 68, 68, 0.45), 0 0 10px -2px rgba(239, 68, 68, 0.3);
+}
+
+.box-glow-gold {
+  box-shadow: 0 0 25px -3px rgba(234, 179, 8, 0.45), 0 0 10px -2px rgba(234, 179, 8, 0.3);
+}
+
+/* Subtle scanlines effect */
+.scanlines {
+  background: linear-gradient(
+    rgba(18, 16, 16, 0) 50%, 
+    rgba(0, 0, 0, 0.25) 50%
+  ), linear-gradient(
+    90deg,
+    rgba(255, 0, 0, 0.03),
+    rgba(0, 255, 0, 0.01),
+    rgba(0, 0, 255, 0.03)
+  );
+  background-size: 100% 3px, 6px 100%;
+  pointer-events: none;
+}
+
+/* Prevent canvas rubber-banding on mobile / trackpads */
+canvas {
+  touch-action: none;
+}
+

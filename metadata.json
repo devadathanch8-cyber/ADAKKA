@@ -1,0 +1,6 @@
+{
+  "name": "Aether Striker 3D - Antigravity Head Soccer",
+  "description": "Fast-paced 3D arcade head-soccer game set in a futuristic floating Sky Stadium. Compete with stylized football superstars featuring curve shots, power kicks, aerial headers, and dynamic ball physics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
